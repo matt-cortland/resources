@@ -227,6 +227,10 @@ CLAUDE CODE TECHNICAL SUMMARY (if available, paste below):
 
 **After:** Download the file Claude creates.
 
+**If Claude shows the summary in chat instead of creating a file:** Sometimes Claude won't create a downloadable file. If this happens, copy the summary from chat and save it yourself as `session-summary-YYYY-MM-DD.md`.
+
+**If you worked on multiple projects:** The summary will cover all projects. When you start a new session, you can either attach the full summary to any project conversation, or ask Claude to extract just the relevant parts for a specific project.
+
 ---
 
 ## Step 3: Save Summary to Your Repo
@@ -351,6 +355,23 @@ I'm continuing work on this project. I've attached two files:
 Read both files completely. Do not respond yet — I have two more messages to send (project docs and my Claude Code instructions). Wait until you've received all three messages before starting.
 ```
 
+**Alternative: Quick Start (skip the multi-message setup)**
+
+If you want to start faster without the 3-message structure, use this instead:
+
+```text
+I'm continuing work on this project. I've attached my project context and latest session summary.
+
+Before we dive in, tell me what you understand about:
+1. Me — my technical level, how I work, any preferences you picked up
+2. This project — what it is, where it's at, what's next
+3. The tools involved — what you know about my stack
+
+Then I'll confirm or correct anything, and we'll start.
+```
+
+This lets Claude surface what it already knows from the attached files (and any prior context), so you can skip re-explaining things it already understands.
+
 **After:**
 - Message 2: Upload any architecture or reference docs Claude needs
 - Message 3: Paste your Claude Code instructions
@@ -362,4 +383,5 @@ Read both files completely. Do not respond yet — I have two more messages to s
 
 | Date | Changes |
 |------|---------|
-| 2025-02-01 | Initial version |
+| 2026-02-01 | Initial version |
+| 2026-02-01 | Added fallback for when Claude won't create downloadable files. Added multi-project note. Added "Quick Start" alternative with knowledge recall. |
