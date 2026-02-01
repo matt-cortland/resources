@@ -41,4 +41,10 @@ Free to use, modify, and share. Attribution appreciated but not required.
 
 ---
 
+## A Note on How This Is Written
+
+Full disclosure: the guides and prompts in this repo are AI-generated writing, not first-pass written by me. I use Claude to draft, refine, and structure most of what you see here. I provide the ideas, direction, and editing — Claude does the heavy lifting on prose. I prefer working this way and I'm transparent about it.
+
+---
+
 *Built by Matt Cortland while building products with Claude Code, Lovable, and Supabase.*
