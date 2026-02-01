@@ -7,7 +7,7 @@
 
 ## Tools Used
 
-`Claude.ai` `Claude Code` `VS Code` `Mac` `GitHub` `Lovable`
+`Claude.ai` `Claude Code` `VS Code` `Mac` `GitHub`
 
 ---
 
@@ -22,12 +22,12 @@ This prompt assumes the following setup:
 | **Claude Code** | Running in VS Code's terminal panel |
 | **Claude.ai** | Browser-based chat for planning and generating files |
 | **GitHub** | Linked to VS Code, authenticated and signed in |
-| **Lovable** | Browser-based frontend builder (optional) |
+
+**Note on Claude.ai:** This prompt is written for Claude.ai, but you can adapt it for ChatGPT or Gemini. I recommend Claude.ai because it pairs naturally with Claude Code — same model, consistent behavior, and seamless file handoffs.
 
 **Using different tools?** Customize the prompt below to match your setup:
 - Windows/Linux? Change the Downloads path
 - Different editor? Update the "My Setup" section in the prompt
-- Don't use Lovable? Remove it from the tools list
 - Additional tools? Add them to "How I Use My Tools"
 
 ---
@@ -109,11 +109,10 @@ Copy the file ~/Downloads/config.md to my-repo at docs/config.md, replacing the 
 
 ## How I Use My Tools
 
-- **Lovable** (browser) — builds UI, frontend, deploys
-- **Claude Code** (VS Code terminal) — backend work, file management, cross-repo operations, things Lovable can't do
+- **Claude Code** (VS Code terminal) — backend work, file management, cross-repo operations
 - **Claude.ai** (browser) — planning, architecture, writing prompts, generating files to hand off to CC
 
-When I say "build this in Lovable," I'll take a prompt to Lovable. When I say "do this in CC," I'll paste into Claude Code. Always tell me which tool to use.
+When I say "do this in CC," I'll paste into Claude Code. Always tell me which tool to use.
 
 ## Golden Rules
 
@@ -136,6 +135,5 @@ After copying, edit the prompt to match your setup:
 |-----------|----------------|
 | Use Windows | `~/Downloads/` → `C:\Users\YourName\Downloads` |
 | Use Linux | `~/Downloads/` → `/home/yourname/Downloads` |
-| Don't use Lovable | Remove it from "How I Use My Tools" |
 | Use other tools | Add them to "How I Use My Tools" |
 | Are more experienced | Tone down the "I do NOT know" disclaimers |
