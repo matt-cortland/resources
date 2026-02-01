@@ -1,16 +1,23 @@
 # Changelog
 
-All notable additions and changes to the prompts collection.
+All notable additions and changes to this repository.
 
 ---
 
 ## 2026-02-01
 
+### Changed
+- Restructured repo from `useful-prompts` to `resources`
+- Moved prompts into `prompts/claude/` subfolder for platform organization
+
 ### Added
-- **`prompts/how-i-work-with-claude-code.md`** — Universal prompt for setting up Claude.ai conversations that involve Claude Code handoffs. Covers technical level declaration, two-part action/explanation response format, file handoff workflow via ~/Downloads/, and golden rules for step-by-step guidance.
-- **`README.md`** — Repo overview and usage guide.
-- **`CHANGELOG.md`** — This file.
+- **`prompts/claude/how-i-work-with-claude-code.md`** — Universal prompt for setting up Claude.ai conversations that involve Claude Code handoffs
+- **`README.md`** — Repo overview with folder index
+- **`prompts/README.md`** — Prompts index by platform
+- **`prompts/claude/README.md`** — Claude-specific prompts index
+- **`CHANGELOG.md`** — This file
 
 ### Notes
-- Initial release.
-- More prompts coming as I build and refine them.
+- Initial release
+- More platforms (Midjourney, ChatGPT) coming soon
+- Writing and tutorials sections coming soon
