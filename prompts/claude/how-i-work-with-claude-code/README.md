@@ -5,6 +5,33 @@
 
 ---
 
+## Tools Used
+
+`Claude.ai` `Claude Code` `VS Code` `Mac` `GitHub` `Lovable`
+
+---
+
+## My Setup
+
+This prompt assumes the following setup:
+
+| Tool | How It's Used |
+|------|---------------|
+| **Mac** | Operating system |
+| **VS Code** | Code editor with Claude Code extension installed |
+| **Claude Code** | Running in VS Code's terminal panel |
+| **Claude.ai** | Browser-based chat for planning and generating files |
+| **GitHub** | Linked to VS Code, authenticated and signed in |
+| **Lovable** | Browser-based frontend builder (optional) |
+
+**Using different tools?** Customize the prompt below to match your setup:
+- Windows/Linux? Change the Downloads path
+- Different editor? Update the "My Setup" section in the prompt
+- Don't use Lovable? Remove it from the tools list
+- Additional tools? Add them to "How I Use My Tools"
+
+---
+
 ## What This Does
 
 Paste this at the start of any Claude.ai conversation where you'll be working with Claude Code. It tells Claude:
@@ -103,9 +130,12 @@ When I say "build this in Lovable," I'll take a prompt to Lovable. When I say "d
 
 ## Customization Tips
 
-After pasting, you can add:
+After copying, edit the prompt to match your setup:
 
-- **Your repos:** "My repos are `my-org/frontend` and `my-org/backend`"
-- **Your tools:** Add or remove tools from the "How I Use My Tools" section
-- **Your OS:** Change Mac to Windows if needed (Downloads path would be `C:\Users\YourName\Downloads`)
-- **Your level:** If you're more experienced, remove the beginner-level disclaimers
+| If you... | Then change... |
+|-----------|----------------|
+| Use Windows | `~/Downloads/` → `C:\Users\YourName\Downloads` |
+| Use Linux | `~/Downloads/` → `/home/yourname/Downloads` |
+| Don't use Lovable | Remove it from "How I Use My Tools" |
+| Use other tools | Add them to "How I Use My Tools" |
+| Are more experienced | Tone down the "I do NOT know" disclaimers |
