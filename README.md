@@ -22,7 +22,12 @@ Blog posts and essays. *Coming soon.*
 
 ## 🎬 Tutorials
 
-YouTube + LinkedIn tutorials with code. *Coming soon.*
+YouTube + LinkedIn tutorials with code.
+
+| Tutorial | Description |
+|----------|-------------|
+| [🎓 Learning Claude Code](tutorials/learning-claude-code/) | Getting started with Claude Code in VS Code |
+| [🛡️ Anti-Sycophancy](tutorials/anti-sycophancy/) | How to get honest, critical feedback from AI instead of yes-man responses |
 
 ---
 
