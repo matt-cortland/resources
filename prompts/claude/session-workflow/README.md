@@ -1,3 +1,4 @@
+<!-- MAINTENANCE: published, derived copy. Canonical source of truth for the session-continuity system is ~/code/mattsguide/finished-guides/planning/. Edit there, then republish here. Do not hand-edit as the source. -->
 # Session Workflow Prompts
 
 End Claude.ai sessions cleanly so new conversations can pick up exactly where you left off.
